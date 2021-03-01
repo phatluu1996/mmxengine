@@ -12,7 +12,10 @@ function scr_player_init(){
 	depth = -100;
 	y = ystart - camera_get_view_height(view_camera[0]) * 2;	
 	list_view = ds_list_create();
+	current_view = instance_place(xstart, ystart, objSection);	
 	camera_lock = true;
+	camera_lock_x = true;
+	camera_lock_y = true;
 	camera_action = noone;
 	state = PlayerState.Spawn;
 	

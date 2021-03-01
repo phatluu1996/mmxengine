@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":40.0,"displayName":"default","resourceVersion":"1.0","name":"e625c6a8-a9ed-4b8b-9f2a-69c625249020","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "SectionArrow",
-    "path": "folders/Sprites/Collision/SectionArrow.yy",
+    "name": "Section",
+    "path": "folders/Sprites/Section.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_down_arrow",

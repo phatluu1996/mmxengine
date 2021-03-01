@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Section",
-    "path": "folders/Objects/Section.yy",
+    "name": "Arrow",
+    "path": "folders/Objects/Section/Arrow.yy",
   },
   "resourceVersion": "1.0",
   "name": "objUpArrow",

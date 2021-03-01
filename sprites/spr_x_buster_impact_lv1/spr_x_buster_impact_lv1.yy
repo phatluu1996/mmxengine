@@ -38,7 +38,7 @@
     "spriteId": {"name":"spr_x_buster_impact_lv1","path":"sprites/spr_x_buster_impact_lv1/spr_x_buster_impact_lv1.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
