@@ -1,6 +1,14 @@
 function scr_player_state_machine(){	
 	scr_player_view_camera();	
 	switch (state) {
+		case PlayerState.Begin:
+			readyCount--;	
+			if(readyCount <= 0){
+				state = PlayerState.Spawn;		
+			}
+			exit;
+			break;
+		
 		case PlayerState.Technique:
 			scr_player_state_technique();
 			break;

@@ -18,7 +18,7 @@ function scr_player_init(){
 	viewy = current_section.y;
 	camera_set_view_pos(view_camera[0], viewx, viewy);
 	
-	state = PlayerState.Spawn;	
+	state = PlayerState.Begin;	
 	hsp = 0;
 	vsp = 0;	
 	hyperJump = false;	
@@ -30,6 +30,8 @@ function scr_player_init(){
 	climbSpd = 1.35;
 	teleSpd = 8;
 	sideMovingPlatform = noone;
+	
+	readyCount = 180;
 	
 	dashCount = 0;
 	dashDuration = room_speed/2;

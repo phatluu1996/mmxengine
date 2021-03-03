@@ -7,8 +7,7 @@ function scr_player_state_dash(){
 	if(key_dash_hold or place_meeting(x , y - 1, objPrtSolid)){	
 		if(!airDash and !place_meeting(x, y + vsp + 1, objSlope) and !place_meeting(x, y + vsp + 1, objPrtSolid) and !place_meeting(x, y + vsp + 1, objMovingSolid) and !place_meeting(x, y+1, objTopLadder)){
 			state = PlayerState.Jump;
-			mask_index = normal_mask;	
-			
+			mask_index = normal_mask;				
 			dashCount = hsp = 0;
 		}
 		
@@ -42,6 +41,7 @@ function scr_player_state_dash(){
 				state = airDash ? PlayerState.Jump : PlayerState.Normal;					
 				mask_index = normal_mask;	
 				specialShoot = false;
+				airDash = false;
 			}else{
 				hsp = image_xscale/4;
 			}
@@ -51,6 +51,7 @@ function scr_player_state_dash(){
 			dashCount = hsp = 0;
 			state = airDash ? PlayerState.Jump : PlayerState.Normal;	
 			mask_index = normal_mask;
+			airDash = false;
 		}
 	}
 	
@@ -61,7 +62,7 @@ function scr_player_state_dash(){
 		specialShoot = false;
 	}
 	
-	if(key_jump_hold and (place_meeting(x, y+1, objPrtSolid) or place_meeting(x, y+1, objMovingSolid) or place_meeting(x, y+1, objSlope) or place_meeting(x, y+1, objTopLadder) )){		
+	if(key_jump and (place_meeting(x, y+1, objPrtSolid) or place_meeting(x, y+1, objMovingSolid) or place_meeting(x, y+1, objSlope) or place_meeting(x, y+1, objTopLadder) )){		
 		hyperJump = true;
 		sprite_index = sprite_map_get(Action.jump);
 		vsp = -jumpSpd;	

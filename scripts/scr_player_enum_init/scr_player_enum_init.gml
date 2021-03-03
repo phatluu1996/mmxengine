@@ -7,6 +7,7 @@ function scr_player_enum_init(){
 	}
 	
 	enum PlayerState {
+		Begin,
 		Normal,
 		Ladder,
 		WallSlide,

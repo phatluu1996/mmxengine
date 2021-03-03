@@ -3,12 +3,13 @@ function scr_player_state_swap(){
 	if(key_swap and state != PlayerState.Swap){
 		image_speed = 1;
 		state = PlayerState.Swap;
-		var swapToPlayer = noone;
+		var swapPlayer = noone;
 		if(object_index == objPlayerZero) {
 			instance_destroy(objZSaber);
-			swapToPlayer = objPlayerX;
+			swapPlayer = objPlayerX;
 		}
-		if(object_index == objPlayerX) swapToPlayer = objPlayerZero;			
-		instance_create_depth(x, y, depth, swapToPlayer);
+		if(object_index == objPlayerX) swapPlayer = objPlayerZero;			
+		var player = instance_create_depth(x, y, depth, swapPlayer);
+		player.state = PlayerState.Spawn;
 	}
 }
