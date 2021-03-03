@@ -1,6 +1,14 @@
 function scr_player_draw_event(){
 	if(state != PlayerState.Swap) scr_player_draw_hud();	
-	draw_text(x, y - 70, "Paused:" + string(global.paused));
+	//draw_text(x, y - 70, "Paused:" + string(global.paused));
+	
+	if(state == PlayerState.Dash or hyperJump){
+		if(dashCount mod 2 == 0){
+			part_type_sprite(particle_fade, sprite_index, 1, 0, 0);
+			part_type_scale(particle_fade, image_xscale, image_yscale);
+			part_particles_create(particle_sys, x, y, particle_fade, 1);
+		}
+	}
 	
 	scr_player_shader_draw();
 	

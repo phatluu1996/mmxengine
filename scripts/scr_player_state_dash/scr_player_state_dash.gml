@@ -36,21 +36,14 @@ function scr_player_state_dash(){
 			
 			hsp = image_xscale*dashSpd;
 			dashCount++;	
-		}else{
-			if(airDash){
+		}else{			
+			if(last_frame()){
 				dashCount = hsp = 0;
-				state = PlayerState.Jump;	
+				state = airDash ? PlayerState.Jump : PlayerState.Normal;					
 				mask_index = normal_mask;	
 				specialShoot = false;
 			}else{
-				if(last_frame()){
-					dashCount = hsp = 0;
-					state = PlayerState.Normal;					
-					mask_index = normal_mask;	
-					specialShoot = false;
-				}else{
-					hsp = image_xscale/4;
-				}	
+				hsp = image_xscale/4;
 			}
 		}
 	}else{	

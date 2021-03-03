@@ -11,17 +11,16 @@ function scr_player_init(){
 	
 	depth = -100;
 	y = ystart - camera_get_view_height(view_camera[0]) * 2;	
-	list_view = ds_list_create();
-	current_view = instance_place(xstart, ystart, objSection);	
-	camera_lock = true;
-	camera_lock_x = true;
+	current_section = instance_place(xstart, ystart, objSection);	
 	camera_lock_y = true;
-	camera_action = noone;
-	state = PlayerState.Spawn;
+	camera_lock_x = true;
+	viewx = current_section.x;
+	viewy = current_section.y;
+	camera_set_view_pos(view_camera[0], viewx, viewy);
 	
+	state = PlayerState.Spawn;	
 	hsp = 0;
-	vsp = 0;
-	
+	vsp = 0;	
 	hyperJump = false;	
 	runSpd = 1.35;
 	jumpSpd = 5.25;
@@ -63,7 +62,7 @@ function scr_player_init(){
 	
 	saber_mask = noone;
 	technique = ZTechnique.None;
-	element = ZElement.Ice;
+	element = ZElement.Normal;
 	
 	airDash = false;
 	canAirDash = false;
@@ -82,7 +81,14 @@ function scr_player_init(){
 	buster_sprite = ds_list_create(); //X buster sprite
 	scr_player_sprites_mapping(character);		
 	scr_player_color_palette_init();	
-	scr_player_weapon_init();
-	 
+	scr_player_weapon_init();	
+	
+	particle_sys = part_system_create();
+	particle_fade = part_type_create();
+	part_type_size(particle_fade, 1, 1, 0, 0);
+	part_type_life(particle_fade, 20, 20);
+	part_type_alpha3(particle_fade, 0.5, 0.3, 0.1);
+	main_color = colorReplace[0];
+	part_type_color_rgb(particle_fade,main_color.red, main_color.red, main_color.green,main_color.green, main_color.blue,main_color.blue);
 	
 }

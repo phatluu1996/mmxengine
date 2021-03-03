@@ -3,8 +3,7 @@ function scr_player_state_normal(){
 	busterYOffset = y - 11;
 	hsp = 0;
 	mask_index = normal_mask;	
-	hyperJump = false;		
-	
+	hyperJump = false;	
 	if ((key_left or key_right) and !normalAtk and !specialShoot and !place_meeting(x + (key_right - key_left), y, objPrtSolid)) state = PlayerState.Movement;	
 	
 	if (key_jump and !specialShoot and !place_meeting(x , y - 1, objPrtSolid) and !place_meeting(x, y - 1, objSlope)) {

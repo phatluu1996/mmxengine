@@ -27,6 +27,11 @@ function scr_player_x_attack(attackSprite, nonAttackSprite){
 				
 						case 2:
 					        limit = 1;		
+							spd = 5;
+					        break;
+							
+						case 3:
+					        limit = 1;		
 							spd = 6;
 					        break;
 					}

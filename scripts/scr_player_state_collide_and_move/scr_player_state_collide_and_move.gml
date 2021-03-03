@@ -10,23 +10,7 @@ function scr_player_state_collide_and_move(){
 			if(scr_player_is_grab_rope()) state = PlayerState.Jump;
 			hsp = 0;	
 		}		
-		
-		//In case the player stuck in the moving solid
-		//var collidedSolid = instance_place(x, y, objMovingSolid);
-		//if(collidedSolid >= 0){
-		//	if(collidedSolid.x > x){
-		//		//x = collidedSolid.bbox_left - 1 - (bbox_right - x);
-		//		while(place_meeting(x, y, objMovingSolid)){
-		//			x-=1;		
-		//		}
-		//	}else if(collidedSolid.x < x){
-		//		//x = collidedSolid.bbox_right + 1 + (x - bbox_left);
-		//		while(place_meeting(x, y, objMovingSolid)){
-		//			x+=1;					
-		//		}
-		//	}
-		//}
-		
+
 		var underMovingSolid = instance_place(x + hsp, y + vsp + 1, objMovingSolid);
 		if(underMovingSolid >= 0){
 			if(scr_player_is_grab_rope()) state = PlayerState.Jump;
@@ -144,7 +128,7 @@ function scr_player_state_collide_and_move(){
 				}
 				sideMovingPlatform = noone;
 				normalAtk = false;
-				if(airDash) airDash = false;
+				if(airDash and !key_jump_hold) airDash = false;
 				if(airJump) airJump = false;	
 			}else{
 				while(!place_meeting(x , y + sign(vsp), bottomSolid)){

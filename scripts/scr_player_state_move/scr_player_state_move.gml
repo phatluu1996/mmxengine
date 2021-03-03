@@ -8,7 +8,7 @@ function scr_player_state_move(){
 	
 	if((!key_left and !key_right) or place_meeting(x + image_xscale, y, objPrtSolid) or place_meeting(x + image_xscale * 2, y + vsp, objMovingSolid)) state = PlayerState.Normal;
 	
-	if (key_jump and !place_meeting(x , y - 1, objPrtSolid) and !place_meeting(x, y - 1, objSlope)) {
+	if (key_jump and !airDash and !place_meeting(x , y - 1, objPrtSolid) and !place_meeting(x, y - 1, objSlope)) {
 		state = PlayerState.Jump;
 		sideMovingPlatform = noone;
 		vsp = -jumpSpd;	
