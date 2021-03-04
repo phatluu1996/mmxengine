@@ -291,7 +291,7 @@ function scr_player_sprites_mapping(character){
 			
 			if(saber == SaberType.X6){
 				//Saber Style x4,x5				
-				atkMaxCombo = 3;
+				atkMaxCombo = 2;
 				sprite_map_add(Action.attack_1, spr_z_stand_slash_0);
 				sprite_map_add(Action.attack_2, spr_z_stand_slash_1);
 				sprite_map_add(Action.attack_3, spr_z_stand_slash_2);
@@ -317,7 +317,7 @@ function scr_player_sprites_mapping(character){
 			}
 			if(saber == SaberType.X4){			
 				//Saber Style x4
-				atkMaxCombo = 3;
+				atkMaxCombo = 2;
 				sprite_map_add(Action.attack_1, spr_z_stand_slash_4);
 				sprite_map_add(Action.attack_2, spr_z_stand_slash_5);
 				sprite_map_add(Action.attack_3, spr_z_stand_slash_6);

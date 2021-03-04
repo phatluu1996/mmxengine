@@ -1,5 +1,5 @@
 function scr_player_view_camera(){			
-	if(state == PlayerState.Spawn or state == PlayerState.Swap) exit;
+	if(state == PlayerState.Spawn or state == PlayerState.Swap or state == PlayerState.ViewTransition) exit;
 	//var view_count = instance_place_list(x,y, objSection, list_view, false);
 	scr_view_camera_variables();
 	
@@ -16,18 +16,24 @@ function scr_player_view_camera(){
 					next_x = current_section.bbox_left;	
 					if(viewx > next_x){
 						camera_lock_x = true;	
+					}else{
+						viewx = lerp(viewx, next_x, 0.05);	
 					}
 				}else {
 					next_x = current_section.bbox_right-camera_w;	
 					if(viewx < next_x){
 						camera_lock_x = true;	
+					}else{
+						viewx = lerp(viewx, next_x, 0.05);	
 					}
-				}							
+				}
 				
-				viewx = lerp(viewx, round(x) - camera_w/2, 0.06);	
+				//if(hsp != 0){
+				//	viewx = lerp(viewx, round(x) - camera_w/2, 0.06);	
+				//}
 				
 			}else{
-				viewx = lerp(viewx, round(x) - camera_w/2, 0.04);	
+				viewx = lerp(viewx, round(x) - camera_w/2, 0.05);	
 			}
 		}
 	

@@ -3,7 +3,7 @@ function scr_player_draw_event(){
 	//draw_text(x, y - 70, "Paused:" + string(global.paused));
 	if(state == PlayerState.Begin and readyCount > 0){
 		scr_view_camera_variables();
-		draw_sprite_ext(spr_ready_txt, image_index, camera_x + camera_w/2, camera_y + camera_h/2, image_xscale, image_yscale, image_angle, image_blend, readyCount mod 5 == 0);	
+		draw_sprite_ext(spr_ready_txt, image_index, camera_x + camera_w/2, camera_y + camera_h/2, 1, image_yscale, image_angle, image_blend, readyCount mod 10 != 0);	
 	}
 	
 	if(state == PlayerState.Dash or hyperJump){

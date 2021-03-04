@@ -16,6 +16,8 @@ function scr_player_init(){
 	camera_lock_x = true;
 	viewx = current_section.x;
 	viewy = current_section.y;
+	next_x = 0;
+	next_y = 0;
 	camera_set_view_pos(view_camera[0], viewx, viewy);
 	
 	state = PlayerState.Begin;	
@@ -32,6 +34,7 @@ function scr_player_init(){
 	sideMovingPlatform = noone;
 	
 	readyCount = 180;
+	transitionCount = 0;
 	
 	dashCount = 0;
 	dashDuration = room_speed/2;

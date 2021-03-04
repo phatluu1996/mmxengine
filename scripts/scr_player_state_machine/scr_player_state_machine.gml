@@ -98,6 +98,11 @@ function scr_player_state_machine(){
 			scr_player_state_moving_solid_slide();
 			break;
 			
+		case PlayerState.ViewTransition:
+			scr_player_state_gate_transition();
+			exit;
+			break;
+			
 	    default:
 	        sprite_index = sprite_map_get(Action.idle);
 	        break;

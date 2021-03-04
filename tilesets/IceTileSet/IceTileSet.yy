@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bg_1",
-    "path": "sprites/spr_bg_1/spr_bg_1.yy",
+    "name": "spr_tile_1",
+    "path": "sprites/spr_tile_1/spr_tile_1.yy",
   },
   "tileWidth": 4,
   "tileHeight": 4,

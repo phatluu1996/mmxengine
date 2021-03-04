@@ -59,6 +59,11 @@ function scr_player_state_dash(){
 		dashCount = hsp = 0;
 		state = airDash ? PlayerState.Jump : PlayerState.Normal;	
 		mask_index = normal_mask;
+		if(place_meeting(x, y, objPrtSolid) or place_meeting(x, y, objMovingSolid)){
+			while(place_meeting(x, y, objPrtSolid) or place_meeting(x, y, objMovingSolid)){
+				y+=1;	
+			}
+		}
 		specialShoot = false;
 	}
 	

@@ -1,6 +1,14 @@
 function scr_player_state_collide_and_move(){	
-	//Horizone	
+	//HitTheDoor
+	var gate = instance_place(x + hsp + image_xscale, y, objGate);
+	if(gate >= 0 and gate.canOpen == true){
+		gate.open = true;
+		transitionCount = ceil(sprite_get_number(gate.sprite_index) * room_speed / sprite_get_speed(gate.sprite_index));
+		state = PlayerState.ViewTransition;	
+		show_debug_message(transitionCount);
+	}
 	
+	//Horizone		
 	#region Horizone Moving Platform
 		var horizoneMovingSolid = collision_rectangle(bbox_left + hsp*2, bbox_top, bbox_right + hsp*2, bbox_bottom + vsp, objMovingSolid, false, true);
 		if(horizoneMovingSolid >= 0 and hsp != 0){				
