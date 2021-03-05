@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"55943d09-b4d2-429a-a840-79cd70e3c3ad","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "StageTile",
-    "path": "folders/Sprites/StageTile.yy",
+    "name": "Tiles",
+    "path": "folders/Sprites/StageTile/Tiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tile_2",

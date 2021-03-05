@@ -17,6 +17,7 @@ function scr_player_state_jump(){
 	if(vsp >= 0){
 		if((place_meeting(x + 1 + hsp, y, objPrtSolid) and key_right)
 		or (place_meeting(x - 1 + hsp, y, objPrtSolid) and key_left)){
+			scr_player_wall_effect(spr_wall_jump_eff);
 			state = PlayerState.WallSlide;
 			specialShoot = false;
 			normalAtk = false;
@@ -27,6 +28,7 @@ function scr_player_state_jump(){
 		var movingSolid = instance_place(x + hsp*2, y, objMovingSolid);
 		if((place_meeting(x + hsp*2, y, objMovingSolid) and key_right)
 		or (place_meeting(x + hsp*2, y, objMovingSolid) and key_left)){	
+			scr_player_wall_effect(spr_wall_jump_eff);
 			sideMovingPlatform = movingSolid;
 			state = PlayerState.MovingSolidSlide;
 			specialShoot = false;
@@ -36,7 +38,7 @@ function scr_player_state_jump(){
 		}
 		
 		if((place_meeting(x + 4, y, objPrtSolid) or place_meeting(x + 4, y, objMovingSolid)) and image_xscale == 1 and key_jump)
-		or ((place_meeting(x - 4, y, objPrtSolid) or place_meeting(x - 4, y, objMovingSolid)) and image_xscale == -1 and key_jump){
+		or ((place_meeting(x - 4, y, objPrtSolid) or place_meeting(x - 4, y, objMovingSolid)) and image_xscale == -1 and key_jump){			
 			state = PlayerState.WallKick;
 			hyperJump = key_dash_hold;
 			wallJumpDir = image_xscale;

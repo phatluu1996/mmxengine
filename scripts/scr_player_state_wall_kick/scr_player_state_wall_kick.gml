@@ -10,10 +10,7 @@ function scr_player_state_wall_kick(){
 	
 	if(wallJumpCount < delay){ 
 		if(wallJumpCount == 0){
-			var spark = instance_create_depth(x + image_xscale*9, bbox_bottom, depth - 1, objPlayerEffect);	
-			spark.sprite_index = spr_wall_jump_eff;
-			spark.image_xscale = image_xscale;	
-			spark.image_index = 0;	
+			scr_player_wall_effect(spr_wall_jump_eff);
 		}
 		wallJumpCount++;
 	}else{
@@ -29,4 +26,11 @@ function scr_player_state_wall_kick(){
 	
 	if(character == Character.Z) scr_player_zero_single_attack(Action.jump_attack, sprite_map_get(Action.wall_kick));
 	if(scr_is_player_x()) scr_player_x_attack(sprite_map_get(Action.jump_attack), sprite_map_get(Action.wall_kick));
+}
+
+function scr_player_wall_effect(sprite){
+	var eff = instance_create_depth(x + image_xscale*9, bbox_bottom, depth - 1, objPlayerEffect);	
+	eff.sprite_index = sprite;
+	eff.image_xscale = image_xscale;	
+	eff.image_index = 0;	
 }

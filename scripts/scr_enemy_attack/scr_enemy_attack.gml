@@ -97,10 +97,11 @@ function scr_helit_attack(X, Y){
 	shot.damageToPlayer = 1;
 	var spd = 3;
 	var dir = point_direction(shot.x, shot.y, objPrtPlayer.x, objPrtPlayer.y);
+	shot.image_angle = dir; 
 	//var distance = point_distance(shot.x, shot.y, objPrtPlayer.x, objPrtPlayer.y);
 	shot.hsp = dcos(dir) * spd;
 	shot.vsp = sqrt(spd * spd - shot.hsp * shot.hsp)*(shot.y > objPrtPlayer.y ? -1 : 1);
-	shot.image_xscale = image_xscale;	
+	//shot.image_xscale = image_xscale;	
 }
 
 function scr_cannon_shoot(){

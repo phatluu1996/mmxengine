@@ -1,5 +1,6 @@
 function scr_helit_step_event(){
 	y = wave(ystart, ystart + 30, 5, 0);
+	scr_enemy_turn_to_player();
 	switch (action) {
 	    case "hover":
 			sprite_index = spr_helit_hover;	        

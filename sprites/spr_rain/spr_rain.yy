@@ -84,8 +84,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dbacbf83-f673-48dc-9f02-18ee753793cd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "StageTile",
-    "path": "folders/Sprites/StageTile.yy",
+    "name": "BG",
+    "path": "folders/Sprites/StageTile/BG.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rain",

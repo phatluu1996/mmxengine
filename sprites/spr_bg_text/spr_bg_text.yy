@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"43cfcb27-9c9f-4a07-8c09-0435030207a7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "StageTile",
-    "path": "folders/Sprites/StageTile.yy",
+    "name": "BG",
+    "path": "folders/Sprites/StageTile/BG.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bg_text",

@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 319,
+  "bbox_right": 399,
   "bbox_top": 0,
   "bbox_bottom": 239,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 320,
+  "width": 400,
   "height": 240,
   "textureGroupId": {
     "name": "Default",
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":30.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"0001aab5-61ec-4aaa-bce7-9bda244a17b9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":40.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"0001aab5-61ec-4aaa-bce7-9bda244a17b9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Section",
