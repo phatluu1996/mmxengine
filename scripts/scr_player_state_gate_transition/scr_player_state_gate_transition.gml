@@ -26,7 +26,7 @@ function scr_player_state_gate_transition(){
 			var door = instance_nearest(x, y, objGate);
 			door.open = false;
 			door.canOpen = false;
-			door.alarm[0] = 180;
+			//door.alarm[0] = 180;
 			door.image_index = 0;			
 			state = PlayerState.Normal;	
 		}

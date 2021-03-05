@@ -70,17 +70,11 @@ function scr_ice_guy_shoot(){
 }
 
 function scr_fire_guy_shoot(){
-	var i = 0
-	repeat 15 {
-		var shot = instance_create_depth(x + image_xscale * 27 + i * image_xscale * 6, y - 13, depth-100, objPrtEnemyWeapon);
-		shot.alarm[0] = 180;
-		shot.sprite_index = spr_fire_guy_flame;
-		shot.image_index = irandom(3);
-		shot.h_offset = i * 2;
-		shot.damageToPlayer = 2;
-		shot.user = id;
-		i++;
-	}
+	var shot = instance_create_depth(x + image_xscale * 27, y - 13, depth-100, objPrtEnemyWeapon);
+	shot.sprite_index = spr_fire_guy_flame;
+	shot.image_xscale = image_xscale;
+	shot.damageToPlayer = 2;
+	shot.user = id;
 }
 
 function scr_ball_axe_attack(){

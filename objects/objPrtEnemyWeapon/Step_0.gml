@@ -48,12 +48,18 @@ switch (sprite_index) {
 		break;
 		
 	case spr_fire_guy_flame:
-		y = wave(ystart + h_offset, ystart-h_offset, 1, 0);
-		if(user.state != EnemyState.Active){
-			//var explosion = instance_create_depth(x, y, depth - 1, objPlayerWeaponImpact);
-			//explosion.sprite_index = irandom(1) ? spr_enemy_explosion_1 : spr_enemy_explosion_2;
-			instance_destroy();		
-		}	
+		if(last_frame()){
+			instance_destroy();
+		}
+		if(user.count >= 100){
+			if(user.count == 100){
+				image_index = 7;	
+			}
+		}else{
+			if(image_index >= 7){
+				image_index = 3;	
+			}
+		}
 		exit;
 		break;
     default:

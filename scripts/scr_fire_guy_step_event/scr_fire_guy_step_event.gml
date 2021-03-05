@@ -15,9 +15,9 @@ function scr_fire_guy_step_event(){
 			if(last_frame()){
 				image_index = image_number - 1;
 				scr_enemy_turn_to_player();
-				if(count < 210){
+				if(count <= 120){
 					if(count == 30){
-						scr_fire_guy_shoot();	
+						scr_fire_guy_shoot();
 					}
 					count++;	
 				}else{
