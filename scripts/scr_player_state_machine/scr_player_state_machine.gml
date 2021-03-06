@@ -101,6 +101,9 @@ function scr_player_state_machine(){
 		case PlayerState.ViewTransition:
 			scr_player_state_gate_transition();
 			exit;
+			
+		case PlayerState.BossEncounter:
+			scr_player_state_boss_encounter();
 			break;
 			
 	    default:

@@ -9,6 +9,10 @@ function scr_player_init(){
 		}
 	};
 	
+	//Global Variable
+	global.paused = false;
+	global.bossStart = false;
+	
 	depth = -100;
 	y = ystart - camera_get_view_height(view_camera[0]) * 2;	
 	current_section = instance_place(xstart, ystart, objSection);	

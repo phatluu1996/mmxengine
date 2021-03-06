@@ -30,8 +30,8 @@ function scr_player_enum_init(){
 		GrabHorizoneRope,
 		GrabDeclineRope,
 		MovingSolidSlide,
-		SwitchSection,
-		ViewTransition
+		ViewTransition,
+		BossEncounter
 	}
 	
 	enum ClimbType {

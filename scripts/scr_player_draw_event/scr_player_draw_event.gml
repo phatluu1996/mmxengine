@@ -37,12 +37,12 @@ function scr_player_draw_event(){
 		}		
 	}	
 	//draw_sprite_ext(mask_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);	
-	if(object_index == objPlayerX){
-		draw_rectangle_color(x-1, bbox_top-8, x+1, bbox_top - 10, c_white, c_white, c_white, c_white, true);
-		draw_rectangle_color(x-4, bbox_top - 4, x+4, bbox_top - 10, c_red,  c_red,  c_red,  c_red, true);
-	}else{
-		draw_rectangle_color(x-1, bbox_top-20, x+1, bbox_top - 22, c_white, c_white, c_white, c_white, true);	
-		draw_rectangle_color(x-4, bbox_top - 4 - 12, x+4, bbox_top - 10 - 10, c_red,  c_red,  c_red,  c_red, true);
-	}
+	//if(object_index == objPlayerX){
+	//	draw_rectangle_color(x-1, bbox_top-8, x+1, bbox_top - 10, c_white, c_white, c_white, c_white, true);
+	//	draw_rectangle_color(x-4, bbox_top - 4, x+4, bbox_top - 10, c_red,  c_red,  c_red,  c_red, true);
+	//}else{
+	//	draw_rectangle_color(x-1, bbox_top-20, x+1, bbox_top - 22, c_white, c_white, c_white, c_white, true);	
+	//	draw_rectangle_color(x-4, bbox_top - 4 - 12, x+4, bbox_top - 10 - 10, c_red,  c_red,  c_red,  c_red, true);
+	//}
 	shader_reset();
 }

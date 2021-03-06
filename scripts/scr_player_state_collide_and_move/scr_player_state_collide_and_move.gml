@@ -131,7 +131,7 @@ function scr_player_state_collide_and_move(){
 			if(vsp >= 0) {
 				while(!place_meeting(x , y + sign(vsp), bottomSolid)) y += 1;	
 				vsp = 0;
-				if(state != PlayerState.Crouch and state != PlayerState.Damaged and state != PlayerState.Technique){					
+				if(state != PlayerState.Crouch and state != PlayerState.Damaged and state != PlayerState.Technique and state != PlayerState.BossEncounter){					
 					state = PlayerState.Normal;
 				}
 				sideMovingPlatform = noone;

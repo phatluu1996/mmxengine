@@ -1,5 +1,8 @@
 function scr_boss_init(){
-	hp = 48;
+	maxHp = 48;
+	hp = 0;
+	prev_hp = 0;
+	
 	enum BossState{
 		Deactive,
 		Intro,
@@ -8,6 +11,7 @@ function scr_boss_init(){
 	}
 
 	state = BossState.Deactive;
+	action = "";
 
 	hsp = 0;
 	vsp = 0;
@@ -20,4 +24,9 @@ function scr_boss_init(){
 
 	explodeDuration = 240;
 	explodeCount = 0;
+	
+	count = 0;
+	
+	damage = false;
 }
+
