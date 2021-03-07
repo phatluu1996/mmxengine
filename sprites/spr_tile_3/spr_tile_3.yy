@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 7428,
-  "bbox_top": 5,
-  "bbox_bottom": 2587,
+  "bbox_left": 0,
+  "bbox_right": 7423,
+  "bbox_top": 0,
+  "bbox_bottom": 2582,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b741f91c-76c9-4301-bcd4-465f062e7e2a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b741f91c-76c9-4301-bcd4-465f062e7e2a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Tiles",
