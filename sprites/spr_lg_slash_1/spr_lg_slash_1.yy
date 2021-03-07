@@ -62,7 +62,7 @@
     "spriteId": {"name":"spr_lg_slash_1","path":"sprites/spr_lg_slash_1/spr_lg_slash_1.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

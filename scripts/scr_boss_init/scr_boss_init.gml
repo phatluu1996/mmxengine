@@ -28,5 +28,6 @@ function scr_boss_init(){
 	count = 0;
 	
 	damage = false;
+	toggle = false;
 }
 
