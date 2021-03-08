@@ -17,6 +17,23 @@ function scr_player_state_taken_damage(){
 		image_speed = 1;		
 	}
 	
+	if(place_meeting(x, y, objSpike)){
+		scr_player_zero_delete_saber_mask();
+		state = PlayerState.Damaged;	
+		energy = 0;
+		var delta = energy_prev - energy;
+		period = round(invincibleDuration/delta);
+		hsp = 0;
+		vsp = 0;
+		atkIndex = false;
+		normalAtk = false;
+		specialShoot = false;
+		dashCount = 0;
+		wallJumpCount = 0;
+		image_index = 0;
+		image_speed = 1;		
+	}
+	
 	if((energy <= 0 or scr_player_crushed_by_platform()) and state != PlayerState.Defeat){
 		state = PlayerState.Defeat;	
 		image_alpha = 0;
