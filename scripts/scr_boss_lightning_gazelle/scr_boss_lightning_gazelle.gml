@@ -186,11 +186,40 @@ function scr_lightning_gazelle_step_event(){
 					if(last_frame()){
 						image_index = image_number - 1;				
 						count = 0;
-						action = "idle";
+						action = "jump";
 						toggle = false;
 					}				
 				}
 			}
+			break;
+			
+		case "jump":			
+			if(!toggle){
+				toggle = true;
+				scr_enemy_turn_to_player();
+				var player = collision_rectangle(camera_x, camera_y, camera_x + camera_w, camera_y + camera_h, objPrtPlayer, false, true);
+				var distance = abs(player.x - x);
+				vsp = -sqrt(abs(2*gravSpd*80));				
+				hsp = (distance/count)*image_xscale;
+				sprite_index = jumpSpr;
+				image_index = 0;
+			}
+			
+			if(vsp <= 0){
+				vsp = 0;
+				action = "air_slash";
+				hsp = 0;		
+				toggle = false;
+			}else{
+				scr_enemy_gravity();	
+			}		
+			if(last_frame()){
+				image_index = image_number - 3;
+			}
+			break;
+			
+		case "air_slash":
+		
 			break;
 		
 	    default:
