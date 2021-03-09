@@ -1,4 +1,6 @@
 function scr_player_state_defeat(){	
+	chargeCount = 0;
+	chargeLv = 0;
 	defeatCount++;		
 	image_alpha = 1;
 	if(defeatCount >= defeatDuration / 2 and defeatCount mod 30 == 0){

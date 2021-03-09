@@ -26,11 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"07457303-16cf-4c9d-ab24-4c2e7695f270","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"07457303-16cf-4c9d-ab24-4c2e7695f270","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"LayerId":{"name":"a9c7ef12-46ff-4f76-bade-4c89e8fe5409","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"07457303-16cf-4c9d-ab24-4c2e7695f270","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"LayerId":{"name":"bf04cf56-aad1-4b01-8c3d-777504daad5b","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_defeat","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"resourceVersion":"1.0","name":"07457303-16cf-4c9d-ab24-4c2e7695f270","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"e094dbb7-895f-42c3-b4e1-29b197b09f1b","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"e094dbb7-895f-42c3-b4e1-29b197b09f1b","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"LayerId":{"name":"a9c7ef12-46ff-4f76-bade-4c89e8fe5409","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"e094dbb7-895f-42c3-b4e1-29b197b09f1b","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"LayerId":{"name":"bf04cf56-aad1-4b01-8c3d-777504daad5b","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_defeat","path":"sprites/spr_la_defeat/spr_la_defeat.yy",},"resourceVersion":"1.0","name":"e094dbb7-895f-42c3-b4e1-29b197b09f1b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -74,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9c7ef12-46ff-4f76-bade-4c89e8fe5409","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Light",
-    "path": "folders/Sprites/Player/X/Armor/Light.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Light/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_la_defeat",

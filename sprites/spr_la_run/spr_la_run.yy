@@ -104,8 +104,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4da4ad37-4992-4f90-a7a8-b98d6387950d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Light",
-    "path": "folders/Sprites/Player/X/Armor/Light.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Light/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_la_run",

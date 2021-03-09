@@ -26,11 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"8f9d53bd-6889-41df-8269-7193f2ca26a2","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"8f9d53bd-6889-41df-8269-7193f2ca26a2","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"LayerId":{"name":"7af41ed1-8348-4b4b-8991-bc383342b0fd","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"8f9d53bd-6889-41df-8269-7193f2ca26a2","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"LayerId":{"name":"33ae6015-fe87-4e0a-91e3-a2814098ed12","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_damaged","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"resourceVersion":"1.0","name":"8f9d53bd-6889-41df-8269-7193f2ca26a2","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"059dd8f2-f6c4-4057-91b4-d932a4796d01","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"059dd8f2-f6c4-4057-91b4-d932a4796d01","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"LayerId":{"name":"7af41ed1-8348-4b4b-8991-bc383342b0fd","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"059dd8f2-f6c4-4057-91b4-d932a4796d01","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"LayerId":{"name":"33ae6015-fe87-4e0a-91e3-a2814098ed12","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_damaged","path":"sprites/spr_la_damaged/spr_la_damaged.yy",},"resourceVersion":"1.0","name":"059dd8f2-f6c4-4057-91b4-d932a4796d01","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -74,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7af41ed1-8348-4b4b-8991-bc383342b0fd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Light",
-    "path": "folders/Sprites/Player/X/Armor/Light.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Light/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_la_damaged",

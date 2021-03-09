@@ -1,6 +1,6 @@
 function scr_player_draw_event(){
 	if(state != PlayerState.Swap) scr_player_draw_hud();	
-	//draw_text(x, y - 70, "Paused:" + string(global.paused));
+		
 	if(state == PlayerState.Begin and readyCount > 0){
 		scr_view_camera_variables();
 		draw_sprite_ext(spr_ready_txt, image_index, camera_x + camera_w/2, camera_y + camera_h/2, 1, image_yscale, image_angle, image_blend, readyCount mod 10 != 0);	
@@ -28,13 +28,14 @@ function scr_player_draw_event(){
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 1);
 	}else{
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
-		if(chargeLv >= 1){			
-			if(global.weaponIndex == 0){
-				draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 0.8);		
-			}else{
-				draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 0.2);		
-			}				
-		}		
+		scr_player_draw_armor();
+		//if(chargeLv >= 1){			
+		//	if(global.weaponIndex == 0){
+		//		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 0.8);
+		//	}else{
+		//		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 0.2);		
+		//	}				
+		//}		
 	}	
 	//draw_sprite_ext(mask_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);	
 	//if(object_index == objPlayerX){
@@ -45,4 +46,38 @@ function scr_player_draw_event(){
 	//	draw_rectangle_color(x-4, bbox_top - 4 - 12, x+4, bbox_top - 10 - 10, c_red,  c_red,  c_red,  c_red, true);
 	//}
 	shader_reset();
+}
+
+function scr_player_draw_armor(){
+	if(arm != ""){ 
+		var armSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", arm) + "_arm");
+		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_arm");
+		if(sprite_exists(armSpr)){
+			draw_sprite_ext( armSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		}
+	}
+	
+	if(body != ""){ 
+		var bodySpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", body) + "_body");
+		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_body");
+		if(sprite_exists(bodySpr)){
+			draw_sprite_ext( bodySpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		}
+	}
+	
+	if(helm != ""){
+		var helmSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", helm) + "_helm");
+		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_helm");
+		if(sprite_exists(helmSpr)){
+			draw_sprite_ext( helmSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		}
+	}
+	
+	if(foot != ""){
+		var footSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", foot) + "_foot");
+		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_foot");
+		if(sprite_exists(footSpr)){
+			draw_sprite_ext( footSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		}
+	}
 }

@@ -108,8 +108,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"167d3ed4-2ae0-4779-b5df-6b705ff19796","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Light",
-    "path": "folders/Sprites/Player/X/Armor/Light.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Light/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_la_dash",

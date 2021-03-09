@@ -5,8 +5,7 @@ function scr_player_x_attack(attackSprite, nonAttackSprite){
 	
 	
 	switch (character) {		
-	    case Character.X:			
-	    case Character.LightArmor:
+	    			    
 		case Character.MaxArmor:
 			if(key_attack_release){				
 				image_index = 0;						
@@ -71,6 +70,56 @@ function scr_player_x_attack(attackSprite, nonAttackSprite){
 				sprite_index = nonAttackSprite;	
 			}
 	        break;
+			
+		case Character.LightArmor:
+		case Character.X:	
+			if(key_attack_release){				
+				//image_index = 0;		
+				normalShoot = true;		
+				var limit = 3;
+				var spd = 4;
+				switch (chargeLv) {
+					case 0:
+						limit = 3;	
+						spd = 6.5;
+						break;
+				
+					case 1:
+						limit = 1;	
+						spd = 6.5;
+						break;
+				
+					case 2:
+						limit = 1;		
+						spd = 7.5;
+						break;
+							
+					case 3:
+						limit = 1;		
+						spd = 7.5;
+						break;
+				}
+					
+				var busterSpr = buster_map_get(chargeLv);					
+				scr_player_x_attack_buster_shot(spd, xscale, busterSpr, limit);
+				chargeLv = 0;
+				chargeCount = 0;
+			}
+			
+			if(normalShoot){				
+				shootCount++;		
+				if(key_attack_press) shootCount = 0;
+				if(shootCount >= shootDuration){						
+					shootCount = 0;		
+					chargeLv = 0;
+					normalShoot = false;
+				}		
+				sprite_index = attackSprite;
+			}else{
+				sprite_index = nonAttackSprite;	
+			}
+			
+			break;
 		
 	    default:
 	        // code here

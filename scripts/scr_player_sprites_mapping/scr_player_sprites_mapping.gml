@@ -30,6 +30,7 @@ function scr_player_sprites_mapping(character){
 		roll_attack,
 		climb_attack,
 		wall_cling_attack,
+		wall_kick_attack,
 		crouch_attack,
 		run_attack,
 		fall_attack,
@@ -55,18 +56,20 @@ function scr_player_sprites_mapping(character){
 		//Classic Color
 		colorMatch[0] = new Color(0,128,248);
 		colorMatch[1] = new Color(0,64,240);
-		colorMatch[2] = new Color(32,48,128);	
-		//colorMatch[3] = new Color(120,216,240);
-		//colorMatch[4] = new Color(80,160,240);
-		//colorMatch[5] = new Color(24,88,176);
+		colorMatch[2] = new Color(32,48,128);
+		
+		colorMatch[3] = new Color(120,216,240);
+		colorMatch[4] = new Color(80,160,240);
+		colorMatch[5] = new Color(24,88,176);
 		
 		//Classic Color
 		colorReplace[0] = new Color(0,128,248);
 		colorReplace[1] = new Color(0,64,240);
 		colorReplace[2] = new Color(32,48,128);	
-		//colorReplace[3] = new Color(120,216,240);
-		//colorReplace[4] = new Color(80,160,240);
-		//colorReplace[5] = new Color(24,88,176);
+		
+		colorReplace[3] = new Color(120,216,240);
+		colorReplace[4] = new Color(80,160,240);
+		colorReplace[5] = new Color(24,88,176);
 	}else if(object_index == objPlayerZero){		
 		colorMatch[0] = new Color(224,32,0);
 		colorMatch[1] = new Color(224,32,0);
@@ -105,6 +108,7 @@ function scr_player_sprites_mapping(character){
 			sprite_map_add(Action.fall_attack, spr_la_jump_shoot_1);
 			sprite_map_add(Action.climb_attack, spr_la_climb_shoot);
 			sprite_map_add(Action.wall_cling_attack, spr_la_wall_slide_shoot);
+			sprite_map_add(Action.wall_cling_attack, spr_la_wall_slide_shoot);
 			sprite_map_add(Action.crouch_attack, spr_la_crouch_shoot);
 			sprite_map_add(Action.dash_attack, spr_la_dash_shoot);	
 			sprite_map_add(Action.grab_rope_attack, spr_la_grab_rope_shoot);	
@@ -119,8 +123,8 @@ function scr_player_sprites_mapping(character){
 			//buster_map_add(spr_x_buster_lv1);
 			buster_map_add(spr_x_buster_lv1);
 			buster_map_add(spr_x_buster_lv2);
+			buster_map_add(spr_x_buster_lv3);
 			buster_map_add(spr_ma_buster_lv3);
-			buster_map_add(spr_la_buster_lv4);
 			
 			normal_mask = spr_x_collision_normal_mask;
 			lower_mask = spr_x_collision_lower_mask;		
@@ -190,7 +194,7 @@ function scr_player_sprites_mapping(character){
 	        break;
 		
 		case Character.X:
-			chargeLvMax = 4;
+			chargeLvMax = 3;
 			sprite_map_add(Action.idle, spr_x_idle);
 			sprite_map_add(Action.climb, spr_x_climb);
 			sprite_map_add(Action.wall_cling, spr_x_wall_slide);
@@ -216,6 +220,7 @@ function scr_player_sprites_mapping(character){
 			sprite_map_add(Action.fall_attack, spr_x_jump_shoot_1);
 			sprite_map_add(Action.climb_attack, spr_x_climb_shoot);
 			sprite_map_add(Action.wall_cling_attack, spr_x_wall_slide_shoot);
+			sprite_map_add(Action.wall_kick_attack, spr_x_wall_kick_shoot);
 			sprite_map_add(Action.crouch_attack, spr_x_crouch_shoot);
 			sprite_map_add(Action.dash_attack, spr_x_dash_shoot);	
 			sprite_map_add(Action.grab_rope_attack, spr_x_grab_rope_shoot);

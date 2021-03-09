@@ -2,8 +2,14 @@ function scr_player_enum_init(){
 	enum Character {
 		X,
 		Z,
-		MaxArmor,
-		LightArmor
+		LightArmor,
+		MaxArmor
+	}
+	
+	enum Armor {
+		Light,
+		Max,
+		Normal
 	}
 	
 	enum PlayerState {

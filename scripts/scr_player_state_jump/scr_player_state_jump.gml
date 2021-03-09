@@ -110,8 +110,6 @@ function scr_player_state_jump(){
 	}
 	
 	
-	
-	
 	if(character == Character.Z) scr_player_zero_single_attack(airJump ? Action.roll_attack : Action.jump_attack, vsp < 0 ? (airJump ? sprite_map_get(Action.roll) : sprite_map_get(Action.jump)) : sprite_map_get(Action.fall));
 	if(scr_is_player_x()){ 
 		if(last_frame()){
@@ -127,6 +125,6 @@ function scr_player_state_jump(){
 		}else{
 			sprite_jump =  sprite_map_get(Action.fall);	
 		}		
-		scr_player_x_attack(sprite_map_get(Action.jump_attack), sprite_jump);
+		scr_player_x_attack(vsp < 0 ? sprite_map_get(Action.jump_attack) : sprite_map_get(Action.fall_attack), sprite_jump);
 	} 
 }

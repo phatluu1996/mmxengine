@@ -26,11 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"344bbb90-b006-4b54-85e6-2703d163c25b","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"344bbb90-b006-4b54-85e6-2703d163c25b","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"LayerId":{"name":"c88375b6-2512-46b9-ac3e-0c34ed89db19","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"344bbb90-b006-4b54-85e6-2703d163c25b","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"LayerId":{"name":"fde7697c-150f-49b1-97e3-1d600414506d","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_jump_0","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"resourceVersion":"1.0","name":"344bbb90-b006-4b54-85e6-2703d163c25b","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"2af9c273-93d0-4b48-90f6-a15948cf1cb8","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"2af9c273-93d0-4b48-90f6-a15948cf1cb8","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"LayerId":{"name":"c88375b6-2512-46b9-ac3e-0c34ed89db19","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"2af9c273-93d0-4b48-90f6-a15948cf1cb8","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"LayerId":{"name":"fde7697c-150f-49b1-97e3-1d600414506d","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_jump_0","path":"sprites/spr_la_jump_0/spr_la_jump_0.yy",},"resourceVersion":"1.0","name":"2af9c273-93d0-4b48-90f6-a15948cf1cb8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -74,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c88375b6-2512-46b9-ac3e-0c34ed89db19","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Light",
-    "path": "folders/Sprites/Player/X/Armor/Light.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Light/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_la_jump_0",

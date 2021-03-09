@@ -34,22 +34,22 @@ function scr_player_x_buster_charge(){
 		switch (chargeLv) {
 		    case 1:
 				chargeSprite = spr_x_charge_aura_lv1;	
-				image_blend = make_color_rgb(80, 216, 240);
+				//image_blend = make_color_rgb(80, 216, 240);
 		        break;
 				
 			case 2:
 				chargeSprite = spr_x_charge_aura_lv2;		
-				image_blend = make_color_rgb(240, 104, 192);
+				//image_blend = make_color_rgb(240, 104, 192);
 		        break;
 				
 			case 3:
 				chargeSprite = spr_x_charge_aura_lv3;				
-				image_blend = make_color_rgb(248, 208 ,152);
+				//image_blend = make_color_rgb(248, 208 ,152);
 		        break;
 				
 			case 4:
 				chargeSprite = spr_x_charge_aura_lv4;	
-				image_blend = make_color_rgb(72, 224 ,160);
+				//image_blend = make_color_rgb(72, 224 ,160);
 		        break;
 		}
 	}

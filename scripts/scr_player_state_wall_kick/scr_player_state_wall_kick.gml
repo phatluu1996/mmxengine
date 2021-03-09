@@ -25,7 +25,7 @@ function scr_player_state_wall_kick(){
 	} 
 	
 	if(character == Character.Z) scr_player_zero_single_attack(Action.jump_attack, sprite_map_get(Action.wall_kick));
-	if(scr_is_player_x()) scr_player_x_attack(sprite_map_get(Action.jump_attack), sprite_map_get(Action.wall_kick));
+	if(scr_is_player_x()) scr_player_x_attack(sprite_map_get(Action.wall_kick_attack), sprite_map_get(Action.wall_kick));
 }
 
 function scr_player_wall_effect(sprite){

@@ -26,11 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"fcf3204e-4219-4fd5-a522-16834bf91f99","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"fcf3204e-4219-4fd5-a522-16834bf91f99","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":{"name":"4710179e-de38-4153-902e-0b91ad12226e","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"fcf3204e-4219-4fd5-a522-16834bf91f99","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":{"name":"f7318823-915c-440e-8a63-a87b6a39e7b7","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_stand_shoot","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"fcf3204e-4219-4fd5-a522-16834bf91f99","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ac7b9979-b76c-4e55-bd01-4ddfc58792e1","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ac7b9979-b76c-4e55-bd01-4ddfc58792e1","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":{"name":"4710179e-de38-4153-902e-0b91ad12226e","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"ac7b9979-b76c-4e55-bd01-4ddfc58792e1","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":{"name":"f7318823-915c-440e-8a63-a87b6a39e7b7","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_stand_shoot","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"ac7b9979-b76c-4e55-bd01-4ddfc58792e1","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"744c26a6-74be-417a-a502-81b87cfbd4a9","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"744c26a6-74be-417a-a502-81b87cfbd4a9","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"LayerId":{"name":"4710179e-de38-4153-902e-0b91ad12226e","path":"sprites/spr_la_stand_shoot/spr_la_stand_shoot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -63,7 +61,7 @@
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
-    "lockOrigin": true,
+    "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
     "backdropImagePath": "",
@@ -86,8 +84,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4710179e-de38-4153-902e-0b91ad12226e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Light",
-    "path": "folders/Sprites/Player/X/Armor/Light.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Light/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_la_stand_shoot",
