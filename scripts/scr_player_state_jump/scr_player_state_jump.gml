@@ -95,7 +95,7 @@ function scr_player_state_jump(){
 		}
 	}
 	
-	if(key_dash_press and !airDash and !hyperJump and !wall_collide_1px() and !airJump and canAirDash){
+	if(key_dash_press and !airDash and !hyperJump and (!wall_collide_1px() or key_up) and !airJump and canAirDash){
 		airDash = true;
 		image_index = 0;
 		vsp = 0;

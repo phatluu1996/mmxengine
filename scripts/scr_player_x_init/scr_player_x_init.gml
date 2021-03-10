@@ -2,9 +2,9 @@ function scr_player_x_init(){
 	character = Character.X;
 	saber = SaberType.X4;	
 	
-	helm = armor_prefix(Armor.Normal);
-	body = armor_prefix(Armor.Normal);
-	arm  = armor_prefix(Armor.Normal);
+	helm = armor_prefix(Armor.Light);
+	body = armor_prefix(Armor.Max);
+	arm  = armor_prefix(Armor.Max);
 	foot = armor_prefix(Armor.Max);	
 }
 

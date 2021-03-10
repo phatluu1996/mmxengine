@@ -7,7 +7,7 @@ function scr_player_x_attack(attackSprite, nonAttackSprite){
 	switch (character) {		
 	    			    
 		case Character.MaxArmor:
-			if(key_attack_release){				
+			if(!key_attack_hold){				
 				image_index = 0;						
 				if(chargeLv <= 2 + (character == Character.MaxArmor)){		
 					normalShoot = true;		

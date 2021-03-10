@@ -4,7 +4,7 @@
     "path": "sprites/spr_top_ladder/spr_top_ladder.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

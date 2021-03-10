@@ -27,16 +27,9 @@ function scr_player_draw_event(){
 	if(state == PlayerState.Defeat and defeatCount >= defeatDuration - 100){
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 1);
 	}else{
-		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
-		scr_player_draw_armor();
-		//if(chargeLv >= 1){			
-		//	if(global.weaponIndex == 0){
-		//		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 0.8);
-		//	}else{
-		//		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, 0.2);		
-		//	}				
-		//}		
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);			
 	}	
+	scr_player_draw_armor();
 	//draw_sprite_ext(mask_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);	
 	//if(object_index == objPlayerX){
 	//	draw_rectangle_color(x-1, bbox_top-8, x+1, bbox_top - 10, c_white, c_white, c_white, c_white, true);
