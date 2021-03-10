@@ -100,8 +100,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84767769-04a9-4d83-8ed5-aa02ad0a11df","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Max",
-    "path": "folders/Sprites/Player/X/Armor/Max.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Max/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ma_climb_slash",

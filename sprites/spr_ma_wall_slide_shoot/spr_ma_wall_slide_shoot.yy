@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d44fe040-9e27-4ff6-8b19-3d95abc8ee29","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Max",
-    "path": "folders/Sprites/Player/X/Armor/Max.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Max/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ma_wall_slide_shoot",

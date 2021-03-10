@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 12,
-  "bbox_right": 28,
-  "bbox_top": 21,
+  "bbox_left": 11,
+  "bbox_right": 29,
+  "bbox_top": 19,
   "bbox_bottom": 43,
   "HTile": false,
   "VTile": false,
@@ -27,15 +27,15 @@
     {"compositeImage":{"FrameId":{"name":"764647ff-c088-4c09-912e-8fd608bec105","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"764647ff-c088-4c09-912e-8fd608bec105","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"764647ff-c088-4c09-912e-8fd608bec105","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2a495117-0092-4322-894d-b3e0623f26ee","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2a495117-0092-4322-894d-b3e0623f26ee","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"2a495117-0092-4322-894d-b3e0623f26ee","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bc1ca9b8-bfa1-4759-8443-5cdbfaad3d0d","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bc1ca9b8-bfa1-4759-8443-5cdbfaad3d0d","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"bc1ca9b8-bfa1-4759-8443-5cdbfaad3d0d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"053dc789-9bcc-4cb6-a581-ec79f0a8b609","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"053dc789-9bcc-4cb6-a581-ec79f0a8b609","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"053dc789-9bcc-4cb6-a581-ec79f0a8b609","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c00acf56-05b5-4321-a521-e4cadcefc507","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c00acf56-05b5-4321-a521-e4cadcefc507","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"c00acf56-05b5-4321-a521-e4cadcefc507","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"22a4f156-1f94-4b41-8815-a6cb6c6d13e9","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"22a4f156-1f94-4b41-8815-a6cb6c6d13e9","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"22a4f156-1f94-4b41-8815-a6cb6c6d13e9","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"0cba2be8-69b8-4e47-8dc1-a2d78d46fedd","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0cba2be8-69b8-4e47-8dc1-a2d78d46fedd","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"LayerId":{"name":"75a4d35c-7ccd-4444-9fd9-3dad9ade368e","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_ma_wall_kick_shoot_foot","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","name":"0cba2be8-69b8-4e47-8dc1-a2d78d46fedd","tags":[],"resourceType":"GMSpriteFrame",},
@@ -54,9 +54,9 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"4e43a81f-2321-4197-a8c9-fe1df98a90a2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"764647ff-c088-4c09-912e-8fd608bec105","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"14b352dc-adb7-45ee-aa2b-564d0ef4b4ae","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a495117-0092-4322-894d-b3e0623f26ee","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1ceed391-0577-412a-b98f-6693d7800cf6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bc1ca9b8-bfa1-4759-8443-5cdbfaad3d0d","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"670bfdad-46c7-4c8e-b76d-edd06d9462f7","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"053dc789-9bcc-4cb6-a581-ec79f0a8b609","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"979e9cf5-e3bb-4eb7-9c5f-b02fd76b2714","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c00acf56-05b5-4321-a521-e4cadcefc507","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a07d24c6-d60f-4c0c-8057-3290f0d064f7","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22a4f156-1f94-4b41-8815-a6cb6c6d13e9","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"1ed432a4-fc20-4387-a186-ad5d4083e934","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0cba2be8-69b8-4e47-8dc1-a2d78d46fedd","path":"sprites/spr_ma_wall_kick_shoot_foot/spr_ma_wall_kick_shoot_foot.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
@@ -85,7 +85,7 @@
   ],
   "parent": {
     "name": "Foot",
-    "path": "folders/Sprites/Player/X/Armor/Light/Foot.yy",
+    "path": "folders/Sprites/Player/X/Armor/Max/Foot.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ma_wall_kick_shoot_foot",

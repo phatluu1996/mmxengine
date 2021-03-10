@@ -104,8 +104,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a10d5a2-eab4-42cc-adc3-241ab722dbdd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Max",
-    "path": "folders/Sprites/Player/X/Armor/Max.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Max/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ma_grab_rope_slash",

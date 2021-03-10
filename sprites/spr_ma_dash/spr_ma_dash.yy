@@ -108,8 +108,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c8776d52-3f1a-4fb5-a82f-cb95c591ab2b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Max",
-    "path": "folders/Sprites/Player/X/Armor/Max.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Max/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ma_dash",

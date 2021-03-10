@@ -74,9 +74,7 @@ function scr_player_init(){
 	element = ZElement.Normal;
 	
 	airDash = false;
-	canAirDash = false;
-	airJump = false;
-	canAirJump = false;
+	airJump = false;	
 	
 	energyLimit = 16;
 	energy_prev = energyLimit;
@@ -100,4 +98,6 @@ function scr_player_init(){
 	main_color = colorReplace[0];
 	part_type_color_rgb(particle_fade,main_color.red, main_color.red, main_color.green,main_color.green, main_color.blue,main_color.blue);
 	
+	
+	isZero = character == Character.Z;
 }

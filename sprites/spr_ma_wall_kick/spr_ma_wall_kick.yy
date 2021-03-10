@@ -84,8 +84,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af4827cb-edad-4f3e-b186-666e88b54a63","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Max",
-    "path": "folders/Sprites/Player/X/Armor/Max.yy",
+    "name": "Full",
+    "path": "folders/Sprites/Player/X/Armor/Max/Full.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ma_wall_kick",

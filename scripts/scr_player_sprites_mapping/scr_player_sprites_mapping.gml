@@ -202,6 +202,7 @@ function scr_player_sprites_mapping(character){
 			sprite_map_add(Action.jump, spr_x_jump_0);
 			sprite_map_add(Action.fall, spr_x_jump_1);
 			sprite_map_add(Action.dash, spr_x_dash);
+			sprite_map_add(Action.dash_up, spr_x_jump_2);
 			sprite_map_add(Action.wall_kick, spr_x_wall_kick);
 			sprite_map_add(Action.climb_up, spr_x_climb_up);
 			sprite_map_add(Action.climb_down, spr_x_climb_down);

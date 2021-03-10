@@ -46,7 +46,7 @@ function scr_player_state_jump(){
 			normalAtk = false;
 			image_index = 0;		
 		}else{
-			if(key_jump and !airDash and !hyperJump and !airJump and vsp >= 0 and canAirJump){
+			if(key_jump and !airDash and !hyperJump and !airJump and vsp >= 0 and canAirJump and isZero){
 				vsp = -jumpSpd;	
 				airJump = true;
 			}		
@@ -63,9 +63,8 @@ function scr_player_state_jump(){
 		hyperJump = false;
 		airDash = false;
 		airJump = false;
-	}
+	}	
 	
-	isZero = character == Character.Z;
 	var rope = collision_rectangle(x-1, bbox_top - 8 - 12 * isZero, x+1, bbox_top - 10 - 10 * isZero + vsp, objPrtRope, true, true);
 	if(rope >= 0 and (key_up or key_down)  and vsp >= 0){
 		if(rope.object_index == objYRope){
@@ -101,7 +100,7 @@ function scr_player_state_jump(){
 		image_index = 0;
 		vsp = 0;
 		normalAtk = false;
-		if(key_up and character == Character.MaxArmor){
+		if(key_up and foot == "_ma_"){
 			state = PlayerState.DashUp;		
 			sprite_map_get(Action.dash_up);
 		}else{			

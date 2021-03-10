@@ -25,8 +25,6 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"0f25b44c-612a-4852-a5b4-e387a83eff1a","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f25b44c-612a-4852-a5b4-e387a83eff1a","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"LayerId":{"name":"5dd11197-115c-4c5f-a4e1-a58f7f3bf086","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"0f25b44c-612a-4852-a5b4-e387a83eff1a","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"LayerId":{"name":"714ea1a1-b337-4087-a8d3-ad68c7c2fd8a","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"0f25b44c-612a-4852-a5b4-e387a83eff1a","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"LayerId":{"name":"3d084f0e-243b-4395-b6cd-da779d582bf8","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_la_crouch_shoot_arm","path":"sprites/spr_la_crouch_shoot_arm/spr_la_crouch_shoot_arm.yy",},"resourceVersion":"1.0","name":"0f25b44c-612a-4852-a5b4-e387a83eff1a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
