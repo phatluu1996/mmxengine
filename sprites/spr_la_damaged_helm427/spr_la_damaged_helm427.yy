@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_la_damaged_helm427","path":"sprites/spr_la_damaged_helm427/spr_la_damaged_helm427.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_la_damaged_helm",
+    "name": "spr_la_damaged_helm427",
     "tags": [],
     "resourceType": "GMSequence",
   },

@@ -20,7 +20,7 @@ function scr_player_state_jump(){
 			scr_player_wall_effect(spr_wall_jump_eff);
 			state = PlayerState.WallSlide;
 			specialShoot = false;
-			normalAtk = false;
+			//normalAtk = false;
 			image_index = 0;
 			vsp = 0;
 		}

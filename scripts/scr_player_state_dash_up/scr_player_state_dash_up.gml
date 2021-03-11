@@ -6,7 +6,7 @@ function scr_player_state_dash_up(){
 		image_index = image_number - 1;	
 		state = PlayerState.Jump;
 		vsp = -jumpSpd;
-		hyperJump = true;
+		//hyperJump = true;
 	}
 	
 	sprite_index = sprite_map_get(Action.dash_up);
