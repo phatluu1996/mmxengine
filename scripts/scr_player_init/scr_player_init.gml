@@ -13,7 +13,7 @@ function scr_player_init(){
 	global.paused = false;
 	global.bossStart = false;
 	
-	depth = -100;
+	depth = layer_get_depth(layer);
 	y = ystart - camera_get_view_height(view_camera[0]) * 2;	
 	current_section = instance_place(xstart, ystart, objSection);	
 	camera_lock_y = true;

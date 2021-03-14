@@ -42,37 +42,39 @@ function scr_player_draw_event(){
 }
 
 function scr_player_draw_armor(){
-	if(helm != ""){
-		var helmSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", helm) + "_helm");
-		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_helm");
-		if(sprite_exists(helmSpr)){
-			draw_sprite_ext( helmSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+	if(object_index != objPlayerZero){
+		if(helm != ""){
+			var helmSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", helm) + "_helm");
+			//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_helm");
+			if(sprite_exists(helmSpr)){
+				draw_sprite_ext( helmSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+			}
 		}
-	}
 	
-	if(arm != ""){ 
-		var armSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", arm) + "_arm");
-		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_arm");
-		if(sprite_exists(armSpr)){
-			draw_sprite_ext( armSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		if(arm != ""){ 
+			var armSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", arm) + "_arm");
+			//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_arm");
+			if(sprite_exists(armSpr)){
+				draw_sprite_ext( armSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+			}
 		}
-	}
 	
-	if(body != ""){ 
-		var bodySpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", body) + "_body");
-		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_body");
-		if(sprite_exists(bodySpr)){
-			draw_sprite_ext( bodySpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		if(body != ""){ 
+			var bodySpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", body) + "_body");
+			//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_body");
+			if(sprite_exists(bodySpr)){
+				draw_sprite_ext( bodySpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+			}
 		}
-	}
 	
 	
 	
-	if(foot != ""){
-		var footSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", foot) + "_foot");
-		//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_foot");
-		if(sprite_exists(footSpr)){
-			draw_sprite_ext( footSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+		if(foot != ""){
+			var footSpr = asset_get_index(string_replace(sprite_get_name(sprite_index),"_x_", foot) + "_foot");
+			//show_debug_message(string_replace(sprite_get_name(sprite_index),"_x_", "_la_") + "_foot");
+			if(sprite_exists(footSpr)){
+				draw_sprite_ext( footSpr, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha);		
+			}
 		}
 	}
 }

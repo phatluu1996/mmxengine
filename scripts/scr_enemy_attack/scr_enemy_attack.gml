@@ -63,14 +63,14 @@ function scr_hoganmer_attack(){
 }
 
 function scr_ice_guy_shoot(){
-	var shot = instance_create_depth(x + image_xscale * 27, y - 13, depth-100, objPrtEnemyWeapon);
+	var shot = instance_create_depth(x + image_xscale * 27, y - 13, depth-1, objPrtEnemyWeapon);
 	shot.sprite_index = spr_ice_guy_ice_shot;				
 	shot.damageToPlayer = 2;
 	shot.hsp = image_xscale * 6;
 }
 
 function scr_fire_guy_shoot(){
-	var shot = instance_create_depth(x + image_xscale * 27, y - 13, depth-100, objPrtEnemyWeapon);
+	var shot = instance_create_depth(x + image_xscale * 27, y - 13, depth-1, objPrtEnemyWeapon);
 	shot.sprite_index = spr_fire_guy_flame;
 	shot.image_xscale = image_xscale;
 	shot.damageToPlayer = 2;
@@ -78,7 +78,7 @@ function scr_fire_guy_shoot(){
 }
 
 function scr_ball_axe_attack(){
-	var shot = instance_create_depth(x + image_xscale * 26, y + 33, depth-100, objPrtEnemyWeapon);
+	var shot = instance_create_depth(x + image_xscale * 26, y + 33, depth-1, objPrtEnemyWeapon);
 	shot.sprite_index = spr_ball_axe_mace;				
 	shot.damageToPlayer = 2;
 	shot.vsp = 3.5;
@@ -86,7 +86,7 @@ function scr_ball_axe_attack(){
 }
 
 function scr_helit_attack(X, Y){
-	var shot = instance_create_depth(X, Y, depth-100, objPrtEnemyWeapon);
+	var shot = instance_create_depth(X, Y, depth-1, objPrtEnemyWeapon);
 	shot.sprite_index = spr_helit_rocket;				
 	shot.damageToPlayer = 1;
 	var spd = 3;
